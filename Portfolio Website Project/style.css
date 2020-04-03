@@ -1,0 +1,99 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    background-image: url('images/cover_photo.jpeg');
+    background-size: 1280px 625px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.links {
+    margin-top:20px;
+    margin-right:20px;
+    float:right;
+    width:30%;
+}
+
+.links a{
+    float:right;
+}
+
+.links img{
+    width:20px;
+    height:20px;
+    margin-right: 10px;
+}
+
+.Home {
+    margin-top: 150px;
+}
+
+.header{
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top:200px;
+    text-align: center;
+    text-shadow: 2px 2px #a1a1a1;
+}
+
+.pageName{
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 1px 1px #a1a1a1;
+}
+
+a {
+    color:#ffffff;
+}
+
+.tempNav {
+    float:left;
+    width:30%;
+}
+
+li {
+    margin-top:20px;
+    margin-left:20px;
+}
+
+a:hover {
+    color: #a1a1a1;
+    transition-duration: 1s;
+}
+
+.content{
+    color:#a1a1a1;
+    margin-top: 325px;
+    text-align: center;
+    font-size: 10px;
+    text-shadow: 1px 1px black;
+}
+
+#Home{
+    height:900px;
+}
+
+#Projects{
+    height:900px;
+}
+
+#About{
+    height:900px;
+}
+
+#Contact{
+    height:900px;
+}

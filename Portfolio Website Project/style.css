@@ -3,6 +3,9 @@
     padding:0;
     box-sizing: border-box;
     text-decoration:none;
+    font-size: 100%;
+    list-style-type: none;
+    /*text-transform: uppercase;*/
 }
 
 html{
@@ -10,11 +13,14 @@ html{
 }
 
 body {
+    font-size: 100%;
     background-color: black;
     background-image: url('images/cover_photo.jpeg');
     background-size: 1280px 625px;
     background-attachment: fixed;
     background-position: center;
+    /*font-family: "Courier New", Courier, monospace;*/
+    font-family:"Times New Roman", Times, serif;
 }
 
 .links {
@@ -45,7 +51,7 @@ body {
 
 .header{
     color:#ffffff;
-    font-size: 25px;
+    font-size: 50px;
     font-weight: 700;
     padding-top:200px;
     text-align: center;
@@ -58,6 +64,7 @@ body {
     font-weight: 700;
     text-align: center;
     text-shadow: 1px 1px #a1a1a1;
+    margin-left: 30%;
 }
 
 a {
@@ -67,11 +74,13 @@ a {
 .tempNav {
     float:left;
     width:30%;
+    position:fixed;
 }
 
 li {
     margin-top:20px;
     margin-left:20px;
+    text-transform: uppercase;
 }
 
 a:hover {
@@ -79,12 +88,18 @@ a:hover {
     transition-duration: 0.5s;
 }
 
-.content{
+.homeContent{
     color:#a1a1a1;
     margin-top: 325px;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     text-shadow: 1px 1px black;
+}
+.content{
+    height:90%;
+}
+iframe{
+    margin-left:25%;
 }
 
 #Home{
